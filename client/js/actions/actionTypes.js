@@ -1,0 +1,5 @@
+export const START_SURVEY = 'START_SURVEY';
+export const STAGE_LOADED = 'STAGE_LOADED';
+export const QUESTION_VALID = 'QUESTION_VALID';
+export const STAGE_DONE = 'STAGE_DONE';
+export const FINISH_SURVEY = 'FINISH_SURVEY';

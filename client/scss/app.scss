@@ -1,0 +1,51 @@
+// Variables:
+$shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+
+html, body {
+    height: 100%;
+}
+#app {
+  width: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lighten(black, 30%);
+    font-size: 17px;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+.stage-text {
+  font-size: 12px;
+  color: lighten(black, 40%);
+}
+.stage-question {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.progress-questions {
+  margin-bottom: 0px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.hid {
+  visibility: hidden;
+}
